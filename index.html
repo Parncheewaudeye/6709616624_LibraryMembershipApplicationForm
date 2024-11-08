@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Membership Application</legend>
+
+            <label for="fullname_th">ชื่อ-นามสกุล:</label><br>
+            <input type="text" id="fullname_th" name="fullname_th"><br><br>
+
+            <label for="fullname">Full Name:</label><br>
+            <input type="text" id="fullname" name="fullname"><br><br>
+
+            <label for="gender">เพศ:</label><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br><br>
+
+            <label for="student_id">รหัสนักศึกษา:</label><br>
+            <input type="text" id="student_id" name="student_id"><br><br>
+
+            <label for="faculty">คณะที่ศึกษา:</label><br>
+            <select id="faculty" name="faculty">
+                <option value="LAW">คณะนิติศาสตร์</option>
+                <option value="TBS">คณะพาณิชยศาสตร์และการบัญชี</option>
+                <option value="POLSCI">คณะรัฐศาสตร์</option>
+                <option value="ECON">คณะเศรษฐศาสตร์</option>
+                <option value="SW">คณะสังคมสงเคราะห์ศาสตร์</option>
+                <option value="JC">คณะวารสารศาสตร์และสื่อสารมวลชน</option>
+                <option value="SOCANTH">คณะสังคมวิทยาและมานุษยวิทยา</option>
+                <option value="PSDS">วิทยาลัยพัฒนศาสตร์ ป๋วย อึ๊งภากรณ์</option>
+                <option value="CI">วิทยาลัยนวัตกรรม</option>
+                <option value="CIS">วิทยาลัยสหวิทยาการ</option>
+                <option value="PBIC">วิทยาลัยนานาชาติ ปรีดี พนมยงค์</option>
+                <option value="LSED">คณะวิทยาการเรียนรู้และศึกษาศาสตร์</option>
+                <option value="SGS">วิทยาลัยโลกคดีศึกษา</option>
+                <option value="ARTS">คณะศิลปศาสตร์</option>
+                <option value="FINEART">คณะศิลปกรรมศาสตร์</option>
+                <option value="SCI">คณะวิทยาศาสตร์และเทคโนโลยี</option>
+                <option value="ENGR">คณะวิศวกรรมศาสตร์</option>
+                <option value="TDS">คณะสถาปัตยกรรมศาสตร์และการผังเมือง</option>
+                <option value="SIIT">สถาบันเทคโนโลยีนานาชาติสิรินธร</option>
+                <option value="MED">คณะแพทยศาสตร์</option>
+                <option value="DENT">คณะทันตแพทยศาสตร์</option>
+                <option value="AHS">คณะสหเวชศาสตร์</option>
+                <option value="NURSE">คณะพยาบาลศาสตร์</option>
+                <option value="PH">คณะสาธารณสุขศาสตร์</option>
+                <option value="PHARM">คณะเภสัชศาสตร์</option>
+                <option value="CICM">วิทยาลัยแพทยศาสตร์นานาชาติจุฬาภรณ์</option>
+            </select><br><br>
+
+            <label for="email">E-mail:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="birthdate">วัน/เดือน/ปีเกิด</label><br>
+            <input type="date" id="barthdate" name="birthdate"><br><br>
+
+            <label for="genre">ประเภทของหนังสือที่สนใจ:</label><br><br>
+            <select id="genre" name="genre">
+                <option value="catalog">Library Catalog</option>
+                <option value="books">Books</option>
+                <option value="reference">Reference Books</option>
+                <option value="reserve">Reserve Books</option>
+                <option value="rare">Rare Books</option>
+                <option value="doc">Documents</option>
+                <option value="theses">Theses</option>
+                <option value="journals">Journals</option>
+                <option value="articles">Articles</option>
+                <option value="course-reserves">Course Reserves</option>
+                <option value="audio">Audio-Visuals</option>
+                <option value="recommend">Recommended Book</option>
+                <option value="new">New Arrivals</option>
+                <option value="best">Best Loan Book</option>
+                <option value="LoT">Library of Things</option>
+                <option value="manga-comics">Manga & Comics</option>
+                <option value="fiction">Fiction</option>
+            </select><br><br>
+
+            <input type="checkbox" name="announce" value="yes">
+            <label for="announce">ต้องการรับข่าวสารข้อมูลของห้องสมุดทางอีเมล</label>
+
+
+        </fieldset>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,14 @@
+legend {
+    text-align: center;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(255, 253, 245);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
